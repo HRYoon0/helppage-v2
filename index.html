@@ -8,7 +8,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 min-h-screen">
-    <!-- Header -->
     <header class="bg-white shadow-sm border-b border-gray-200">
         <div class="max-w-6xl mx-auto px-4 py-6">
             <h1 class="text-3xl font-bold text-gray-900">학교업무 도움자료</h1>
@@ -16,11 +15,8 @@
         </div>
     </header>
 
-    <!-- Main Container -->
     <main class="max-w-6xl mx-auto px-4 py-8">
-        <!-- Main Sections Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            <!-- 유치원 -->
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200">
                 <button 
                     onclick="toggleSection('kindergarten')" 
@@ -38,9 +34,7 @@
                     <i class="fas fa-chevron-down text-gray-400 transition-transform duration-200" id="kindergarten-arrow"></i>
                 </button>
                 
-                <!-- 유치원 상세 내용 -->
                 <div id="kindergarten-content" class="hidden border-t border-gray-100 rounded-b-lg">
-                    <!-- 검색창 -->
                     <div class="p-4 bg-gray-50">
                         <div class="relative">
                             <input 
@@ -53,13 +47,10 @@
                             <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
                         </div>
                     </div>
-                    
-                    <!-- 하위 섹션 목록 -->
                     <div id="kindergarten-sections" class="p-4"></div>
                 </div>
             </div>
 
-            <!-- 초등학교 -->
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200">
                 <button 
                     onclick="toggleSection('elementary')" 
@@ -77,9 +68,7 @@
                     <i class="fas fa-chevron-down text-gray-400 transition-transform duration-200" id="elementary-arrow"></i>
                 </button>
                 
-                <!-- 초등학교 상세 내용 -->
                 <div id="elementary-content" class="hidden border-t border-gray-100 rounded-b-lg">
-                     <!-- 검색창 -->
                      <div class="p-4 bg-gray-50">
                         <div class="relative">
                             <input 
@@ -92,17 +81,14 @@
                             <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
                         </div>
                     </div>
-                    
-                    <!-- 하위 섹션 목록 -->
                     <div id="elementary-sections" class="p-4"></div>
                 </div>
             </div>
 
-            <!-- 중고등학교 -->
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200">
                 <button 
                     onclick="toggleSection('secondary')" 
-                    class="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 rounded-lg"
+                    class="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 rounded-t-lg"
                 >
                     <div class="flex items-center">
                         <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
@@ -116,86 +102,130 @@
                     <i class="fas fa-chevron-down text-gray-400 transition-transform duration-200" id="secondary-arrow"></i>
                 </button>
                 
-                <div id="secondary-content" class="hidden border-t border-gray-100 p-6 rounded-b-lg">
-                    <p class="text-gray-600 text-center">세부 내용 준비 중입니다. 관련 자료(하위 섹션 구조, 각 항목별 링크 등)를 제공해주시면 추가하겠습니다.</p>
+                <div id="secondary-content" class="hidden border-t border-gray-100 rounded-b-lg">
+                    <div class="p-4 bg-gray-50">
+                        <div class="relative">
+                            <input 
+                                type="text" 
+                                id="secondary-search" 
+                                placeholder="하위 섹션을 검색하세요..."
+                                class="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors duration-200"
+                                oninput="searchSecondary()"
+                            >
+                            <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                        </div>
+                    </div>
+                    <div id="secondary-sections" class="p-4"></div>
                 </div>
             </div>
 
-            <!-- 특수학교(급) -->
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200">
                 <button 
                     onclick="toggleSection('special')" 
-                    class="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 rounded-lg"
+                    class="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 rounded-t-lg" 
                 >
                     <div class="flex items-center">
                         <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4">
                             <i class="fas fa-heart text-orange-600 text-xl"></i>
                         </div>
                         <div>
-                            <h3 class="text-lg font-semibold text-gray-900\">특수학교(급)</h3>
-                            <p class="text-sm text-gray-600\">특수학교 관련 업무자료</p>
+                            <h3 class="text-lg font-semibold text-gray-900">특수학교(급)</h3>
+                            <p class="text-sm text-gray-600">특수학교 관련 업무자료</p>
                         </div>
                     </div>
                     <i class="fas fa-chevron-down text-gray-400 transition-transform duration-200" id="special-arrow"></i>
                 </button>
                 
-                <div id="special-content" class="hidden border-t border-gray-100 p-6 rounded-b-lg">
-                    <p class="text-gray-600 text-center\">세부 내용 준비 중입니다. 관련 자료(하위 섹션 구조, 각 항목별 링크 등)를 제공해주시면 추가하겠습니다.</p>
+                <div id="special-content" class="hidden border-t border-gray-100 rounded-b-lg">
+                    <div class="p-4 bg-gray-50">
+                        <div class="relative">
+                            <input 
+                                type="text" 
+                                id="special-search" 
+                                placeholder="하위 섹션을 검색하세요..."
+                                class="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-colors duration-200"
+                                oninput="searchSpecial()"
+                            >
+                            <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                        </div>
+                    </div>
+                    <div id="special-sections" class="p-4"></div>
                 </div>
             </div>
 
-            <!-- 일반행정 -->
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200">
                 <button 
                     onclick="toggleSection('admin')" 
-                    class="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 rounded-lg"
+                    class="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 rounded-t-lg"
                 >
                     <div class="flex items-center">
                         <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4">
                             <i class="fas fa-cogs text-gray-600 text-xl"></i>
                         </div>
                         <div>
-                            <h3 class="text-lg font-semibold text-gray-900\">일반행정</h3>
-                            <p class="text-sm text-gray-600\">일반행정 관련 업무자료</p>
+                            <h3 class="text-lg font-semibold text-gray-900">일반행정</h3>
+                            <p class="text-sm text-gray-600">일반행정 관련 업무자료</p>
                         </div>
                     </div>
                     <i class="fas fa-chevron-down text-gray-400 transition-transform duration-200" id="admin-arrow"></i>
                 </button>
                 
-                <div id="admin-content" class="hidden border-t border-gray-100 p-6 rounded-b-lg">
-                    <p class="text-gray-600 text-center\">세부 내용 준비 중입니다. 관련 자료(하위 섹션 구조, 각 항목별 링크 등)를 제공해주시면 추가하겠습니다.</p>
+                <div id="admin-content" class="hidden border-t border-gray-100 rounded-b-lg">
+                    <div class="p-4 bg-gray-50">
+                        <div class="relative">
+                            <input 
+                                type="text" 
+                                id="admin-search" 
+                                placeholder="하위 섹션을 검색하세요..."
+                                class="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-gray-500 transition-colors duration-200"
+                                oninput="searchAdmin()"
+                            >
+                            <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                        </div>
+                    </div>
+                    <div id="admin-sections" class="p-4"></div>
                 </div>
             </div>
 
-            <!-- 교무행정원 -->
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200">
                 <button 
                     onclick="toggleSection('staff')" 
-                    class="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 rounded-lg"
+                    class="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 rounded-t-lg"
                 >
                     <div class="flex items-center">
                         <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mr-4">
-                            <i class="fas fa-users text-red-600 text-xl"></i>
+                            <i class="fas fa-clipboard-user text-red-600 text-xl"></i>
                         </div>
                         <div>
-                            <h3 class="text-lg font-semibold text-gray-900\">교무행정원</h3>
-                            <p class="text-sm text-gray-600\">교무행정원 관련 업무자료</p>
+                            <h3 class="text-lg font-semibold text-gray-900">교무행정원</h3>
+                            <p class="text-sm text-gray-600">교무행정원 관련 업무자료</p>
                         </div>
                     </div>
                     <i class="fas fa-chevron-down text-gray-400 transition-transform duration-200" id="staff-arrow"></i>
                 </button>
                 
-                <div id="staff-content" class="hidden border-t border-gray-100 p-6 rounded-b-lg">
-                    <p class="text-gray-600 text-center\">세부 내용 준비 중입니다. 관련 자료(하위 섹션 구조, 각 항목별 링크 등)를 제공해주시면 추가하겠습니다.</p>
+                <div id="staff-content" class="hidden border-t border-gray-100 rounded-b-lg">
+                    <div class="p-4 bg-gray-50">
+                        <div class="relative">
+                            <input 
+                                type="text" 
+                                id="staff-search" 
+                                placeholder="하위 섹션을 검색하세요..."
+                                class="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors duration-200"
+                                oninput="searchStaff()"
+                            >
+                            <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                        </div>
+                    </div>
+                    <div id="staff-sections" class="p-4"></div>
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- Footer -->
     <footer class="bg-white border-t border-gray-200 mt-16">
         <div class="max-w-6xl mx-auto px-4 py-6">
-            <p class="text-center text-gray-600 text-sm\">© 2024 학교업무 도움자료. 모든 권리 보유.</p>
+            <p class="text-center text-gray-600 text-sm">© 2024 학교업무 도움자료. 모든 권리 보유.</p>
         </div>
     </footer>
 
