@@ -461,7 +461,7 @@ const adminData = {
 const staffData = {
     "1. 교무행정 업무-1": {
         icon: "fas fa-clipboard-list",
-        color: "red",
+        color: "emerald",
         items: [
             { 
                 id: "st-1-1", 
@@ -472,7 +472,7 @@ const staffData = {
     },
     "2. 교무행정 업무-2": {
         icon: "fas fa-tasks",
-        color: "red",
+        color: "fuchsia",
         items: [
             { 
                 id: "st-2-1", 
@@ -483,7 +483,7 @@ const staffData = {
     },
     "3. 그 외 도움자료": {
         icon: "fas fa-question-circle",
-        color: "red",
+        color: "violet",
         items: [
             { 
                 id: "st-3-1", 
