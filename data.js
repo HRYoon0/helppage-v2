@@ -364,7 +364,7 @@ const secondaryData = {
 const specialData = {
     "1. 특수교육 교육과정 편성ㆍ운영": {
         icon: "fas fa-sitemap",
-        color: "orange",
+        color: "violet",
         items: [
             { id: "sp-1-1", title: "1-1. 특수학교 교육과정 편성ㆍ운영", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/Ja4H_U9BVf1SD_qZjWhX4Q.iaMZYFFXLC0lWVj0ZjzT4JycbEctPA8dLu7C8awF0KBjA_1YEOwWhqAnv-tAMTLjhJ7kSyKLvKBn7lqimJdAvw?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDUxNjE5OTJ8RHww" },
             { id: "sp-1-2", title: "1-2. 특수학급 및 통합학급 교육과정 편성ㆍ운영", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/Ja4H_U9BVf1SD_qZjWhX4Q.iaMZYFFXLC0lWVj0ZjzT4JycbEctPA8dLu7C8awF0KBjA_1YEOwWhqAnv-tAMTLjhJ7kSyKLvKBn7lqimJdAvw?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDUxMDQ2NDl8RHww" },
