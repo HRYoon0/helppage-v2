@@ -443,7 +443,7 @@ const adminData = {
         ]
     },
     "6. 신설학교": {
-        icon: "fas fa-solid fa-school-flag",
+        icon: "fas fa-solid fa-school",
         color: "zinc",
         items: [
             { id: "a-6-1", title: "6-1. 신설학교", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDE1MDQyNjV8RHww" }
