@@ -375,7 +375,7 @@ const specialData = {
     },
     "2. 개별화 교육계획 작성 활용": {
         icon: "fas fa-file-signature",
-        color: "orange",
+        color: "pink",
         items: [
             { id: "sp-2-1", title: "2-1. 개별화교육지원팀 구성", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/Ja4H_U9BVf1SD_qZjWhX4Q.iaMZYFFXLC0lWVj0ZjzT4JycbEctPA8dLu7C8awF0KBjA_1YEOwWhqAnv-tAMTLjhJ7kSyKLvKBn7lqimJdAvw?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDQ4MjM4MTd8RHww" },
             { id: "sp-2-2", title: "2-2. 개별화교육계획 수립 및 평가", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/Ja4H_U9BVf1SD_qZjWhX4Q.iaMZYFFXLC0lWVj0ZjzT4JycbEctPA8dLu7C8awF0KBjA_1YEOwWhqAnv-tAMTLjhJ7kSyKLvKBn7lqimJdAvw?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDQ3NTQ5NTN8RHww" }
@@ -383,7 +383,7 @@ const specialData = {
     },
     "3. 특수교육대상자 학적 관리": {
         icon: "fas fa-address-book",
-        color: "orange",
+        color: "green",
         items: [
             { id: "sp-3-1", title: "3-1. 특수교육대상자 선정ㆍ배치", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/Ja4H_U9BVf1SD_qZjWhX4Q.iaMZYFFXLC0lWVj0ZjzT4JycbEctPA8dLu7C8awF0KBjA_1YEOwWhqAnv-tAMTLjhJ7kSyKLvKBn7lqimJdAvw?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDQ2ODY2MDB8RHww" },
             { id: "sp-3-2", title: "3-2. 치료지원비 지원", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/Ja4H_U9BVf1SD_qZjWhX4Q.iaMZYFFXLC0lWVj0ZjzT4JycbEctPA8dLu7C8awF0KBjA_1YEOwWhqAnv-tAMTLjhJ7kSyKLvKBn7lqimJdAvw?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDQ2MzQzNzZ8RHww" },
