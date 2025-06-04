@@ -254,7 +254,7 @@ const elementaryData = {
 const secondaryData = {
     "1. 교무": {
         icon: "fas fa-user-tie", 
-        color: "slate",
+        color: "amber",
         items: [
             { id: "s-1-1", title: "1-1. 학교규칙", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/TY8Tb45aXJ6KrYK26ymGKg.-vvXV2zXQqyHVCoAOUZCvauc4arvx_vUCgM0kiZfc-2EGDWiKk2KSf79JNtqdwyBhMEFRowy1JRys7iPBrJqnA?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDY5MDAyMzJ8RHww" },
             { id: "s-1-2", title: "1-2. 학교생활기록부", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/TY8Tb45aXJ6KrYK26ymGKg.-vvXV2zXQqyHVCoAOUZCvauc4arvx_vUCgM0kiZfc-2EGDWiKk2KSf79JNtqdwyBhMEFRowy1JRys7iPBrJqnA?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDY5MDk0NDh8RHww" },
