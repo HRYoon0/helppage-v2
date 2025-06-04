@@ -221,7 +221,7 @@ const elementaryData = {
         ]
     },
     "6. 인성": {
-        icon: "fas fa-users-rays",
+        icon: "fas fa-solid fa-heart",
         color: "fuchsia",
         items: [
             { id: "e-6-1", title: "6-1. 인성교육", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LabU8GPPjXWSFDcQsm0V0g.wn12irmVGdt0EtViq4r59708lHFRjblpplvRpP7gon8HW4zZ0PYOQsArZy7nkCtZN6JDe0O_LRYNhHYW-H8I-g?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDgwNTc4NjV8RHww" },
