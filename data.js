@@ -427,7 +427,7 @@ const adminData = {
         ]
     },
     "4. 시설ㆍ물품ㆍ재산": {
-        icon: "fas fa-building-columns",
+        icon: "fas fa-solid fa-credit-card",
         color: "stone",
         items: [
             { id: "a-4-1", title: "4-1. 학교시설관리", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDIyMDY0NzN8RHww" },
@@ -443,7 +443,7 @@ const adminData = {
         ]
     },
     "6. 신설학교": {
-        icon: "fas fa-school-flag",
+        icon: "fas fa-solid fa-school-flag",
         color: "zinc",
         items: [
             { id: "a-6-1", title: "6-1. 신설학교", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDE1MDQyNjV8RHww" }
