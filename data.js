@@ -397,7 +397,7 @@ const specialData = {
 const adminData = {
     "1. 행정일반": {
         icon: "fas fa-archive",
-        color: "gray",
+        color: "emerald",
         items: [
             { id: "a-1-1", title: "1-1. 민원정보 공개", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDM3ODU5OTJ8RHww" },
             { id: "a-1-2", title: "1-2. 행정업무운영", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDM3MjI1MDV8RHww" },
@@ -406,7 +406,7 @@ const adminData = {
     },
     "2. 인사": {
         icon: "fas fa-users-cog",
-        color: "zinc",
+        color: "pink",
         items: [
             { id: "a-2-1", title: "2-1. 지방공무원인사", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDM0NjMxNzZ8RHww" },
             { id: "a-2-2", title: "2-2. 교육공무직원", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDMzNzc5Mjh8RHww" },
@@ -416,7 +416,7 @@ const adminData = {
     },
     "3. 학교회계": {
         icon: "fas fa-calculator",
-        color: "neutral",
+        color: "fuchsia",
         items: [
             { id: "a-3-1", title: "3-1. 예결산 관리", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDMxMjYyODF8RHww" },
             { id: "a-3-2", title: "3-2. 수입관리", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDMwNjM4MTZ8RHww" },
@@ -428,7 +428,7 @@ const adminData = {
     },
     "4. 시설ㆍ물품ㆍ재산": {
         icon: "fas fa-solid fa-credit-card",
-        color: "stone",
+        color: "cyan",
         items: [
             { id: "a-4-1", title: "4-1. 학교시설관리", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDIyMDY0NzN8RHww" },
             { id: "a-4-2", title: "4-2. 물품관리", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDIxMTM1NDR8RHww" },
@@ -437,21 +437,21 @@ const adminData = {
     },
     "5. 학교운영위원회": {
         icon: "fas fa-landmark",
-        color: "gray",
+        color: "lime",
         items: [
             { id: "a-5-1", title: "5-1. 학교운영위원회", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDE5Nzk5MTJ8RHww" }
         ]
     },
     "6. 신설학교": {
         icon: "fas fa-solid fa-school",
-        color: "zinc",
+        color: "violet",
         items: [
             { id: "a-6-1", title: "6-1. 신설학교", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDE1MDQyNjV8RHww" }
         ]
     },
     "7. 감사일반": {
         icon: "fas fa-gavel",
-        color: "neutral",
+        color: "teal",
         items: [
             { id: "a-7-1", title: "7-1. 감사일반", url: "https://kr1-link.drive.worksmobile.com/shared-link/web/pubDLink/LsCWyGFpVqw6NLVCVs97cA.T-J1fYSt_52tXxrswokSNkp-JJdnREo5OgkQ-CQw0YDPFf_BmX27iV2UgOnfmY4QKsQ3b56aYFuvHNKBZEzbKg?resourceKey=MTAwMDAxNTAxOTEzMDcyfDM0NzI2MDA4NTc5MDE0NTc5Mjh8RHww" }
         ]
